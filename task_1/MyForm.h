@@ -116,7 +116,7 @@ namespace task1 {
 			// pictureBox1
 			// 
 			this->pictureBox1->BackColor = System::Drawing::Color::White;
-			this->pictureBox1->Location = System::Drawing::Point(648, 41);
+			this->pictureBox1->Location = System::Drawing::Point(450, 55);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(23, 20);
 			this->pictureBox1->TabIndex = 0;
@@ -137,14 +137,14 @@ namespace task1 {
 			this->pictureBox2->BackColor = System::Drawing::Color::White;
 			this->pictureBox2->Location = System::Drawing::Point(12, 30);
 			this->pictureBox2->Name = L"pictureBox2";
-			this->pictureBox2->Size = System::Drawing::Size(608, 378);
+			this->pictureBox2->Size = System::Drawing::Size(403, 315);
 			this->pictureBox2->TabIndex = 2;
 			this->pictureBox2->TabStop = false;
 			this->pictureBox2->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MyForm::pictureBox2_Paint);
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(648, 80);
+			this->textBox1->Location = System::Drawing::Point(450, 94);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(85, 20);
 			this->textBox1->TabIndex = 3;
@@ -152,7 +152,7 @@ namespace task1 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(645, 64);
+			this->label2->Location = System::Drawing::Point(447, 78);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(67, 13);
 			this->label2->TabIndex = 4;
@@ -161,7 +161,7 @@ namespace task1 {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Location = System::Drawing::Point(645, 25);
+			this->label3->Location = System::Drawing::Point(447, 39);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(77, 13);
 			this->label3->TabIndex = 5;
@@ -170,7 +170,7 @@ namespace task1 {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(645, 109);
+			this->label4->Location = System::Drawing::Point(447, 123);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(58, 13);
 			this->label4->TabIndex = 7;
@@ -178,14 +178,14 @@ namespace task1 {
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(648, 125);
+			this->textBox2->Location = System::Drawing::Point(450, 139);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(85, 20);
 			this->textBox2->TabIndex = 6;
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(648, 238);
+			this->button1->Location = System::Drawing::Point(450, 252);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(95, 36);
 			this->button1->TabIndex = 8;
@@ -196,7 +196,7 @@ namespace task1 {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(626, 185);
+			this->label5->Location = System::Drawing::Point(428, 199);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(162, 13);
 			this->label5->TabIndex = 10;
@@ -204,21 +204,21 @@ namespace task1 {
 			// 
 			// textBox3
 			// 
-			this->textBox3->Location = System::Drawing::Point(648, 201);
+			this->textBox3->Location = System::Drawing::Point(450, 215);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(32, 20);
 			this->textBox3->TabIndex = 9;
 			// 
 			// textBox4
 			// 
-			this->textBox4->Location = System::Drawing::Point(701, 201);
+			this->textBox4->Location = System::Drawing::Point(503, 215);
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(32, 20);
 			this->textBox4->TabIndex = 11;
 			// 
 			// textBox5
 			// 
-			this->textBox5->Location = System::Drawing::Point(648, 162);
+			this->textBox5->Location = System::Drawing::Point(450, 176);
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->Size = System::Drawing::Size(35, 20);
 			this->textBox5->TabIndex = 12;
@@ -226,7 +226,7 @@ namespace task1 {
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Location = System::Drawing::Point(645, 148);
+			this->label6->Location = System::Drawing::Point(447, 162);
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(79, 13);
 			this->label6->TabIndex = 13;
@@ -234,7 +234,7 @@ namespace task1 {
 			// 
 			// textBox6
 			// 
-			this->textBox6->Location = System::Drawing::Point(795, 41);
+			this->textBox6->Location = System::Drawing::Point(571, 54);
 			this->textBox6->Name = L"textBox6";
 			this->textBox6->Size = System::Drawing::Size(43, 20);
 			this->textBox6->TabIndex = 14;
@@ -242,7 +242,7 @@ namespace task1 {
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Location = System::Drawing::Point(792, 25);
+			this->label7->Location = System::Drawing::Point(568, 38);
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(140, 13);
 			this->label7->TabIndex = 15;
@@ -251,7 +251,7 @@ namespace task1 {
 			// 
 			// textBox7
 			// 
-			this->textBox7->Location = System::Drawing::Point(743, 161);
+			this->textBox7->Location = System::Drawing::Point(545, 175);
 			this->textBox7->Name = L"textBox7";
 			this->textBox7->Size = System::Drawing::Size(45, 20);
 			this->textBox7->TabIndex = 16;
@@ -259,7 +259,7 @@ namespace task1 {
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Location = System::Drawing::Point(743, 148);
+			this->label8->Location = System::Drawing::Point(545, 162);
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(67, 13);
 			this->label8->TabIndex = 17;
@@ -270,7 +270,7 @@ namespace task1 {
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::SystemColors::ActiveBorder;
-			this->ClientSize = System::Drawing::Size(947, 466);
+			this->ClientSize = System::Drawing::Size(711, 359);
 			this->Controls->Add(this->label8);
 			this->Controls->Add(this->textBox7);
 			this->Controls->Add(this->label7);
@@ -343,43 +343,62 @@ namespace task1 {
 	{
 		
 		Pen^ L_Pen = gcnew Pen(line_color, line_width);
+		style = 3;
 		if (style == 0) { L_Pen->DashStyle = System::Drawing::Drawing2D::DashStyle::Solid; }
 		if (style == 1) { L_Pen->DashStyle = System::Drawing::Drawing2D::DashStyle::Dot; }
 		if (style == 2) { L_Pen->DashStyle = System::Drawing::Drawing2D::DashStyle::DashDot; }
 		if (style == 3) { L_Pen->DashStyle = System::Drawing::Drawing2D::DashStyle::Dash; }
-		Graphics^ Графика = pictureBox1->CreateGraphics();
-		Графика->DrawLine(L_Pen, axis_x, axis_y, x, 2*a);
+		Graphics^ Графика = pictureBox2->CreateGraphics();
+		Графика->DrawLine(L_Pen, axis_x, axis_y, x, (-2)*a);
+		//Pen^ L_Pen2 = gcnew Pen(Color::Green, 1);
+		//Графика->DrawLine(L_Pen2, axis_x, axis_y, x, (-2)*a);
 		
 	}
 
+	private: void draw_side_line(int x1, int x2, int y1, int y2)
+	{
+		Pen^ L_Pen = gcnew Pen(Color::Green, 2);
+		L_Pen->DashStyle = System::Drawing::Drawing2D::DashStyle::Solid;
+		Graphics^ Графика = pictureBox2->CreateGraphics();
+		Графика->DrawLine(L_Pen, x1, y1, x2, y2);
+
+	}
 	private: void draw_calcul_line(array<Point> ^p, int size_max, int time, int a)
 	{
 		int i = 0;
 		//int size = 0;
 		angle = angleStarting;
 
-		bool UpDown = true; //Переменная для определения изменения масштаба 
+		bool UpDown = true; //Переменная для определения пульсации 
 
-		while (i < 64) {
+		while (i < 28) {
 			Paint_Clear();
 			draw_agnesi_trajectory(p);
 			if (size_max == 1) {
 				Paint_Clear();
 				draw_agnesi_trajectory(p);
 				draw_line(a,p[i].X);
+				draw_side_line(p[i].X, p[i].X,(-2)*a,  p[i].Y);
+				double crossed = sqrt(pow(a,2) - pow(p[i].Y, 2));
+				draw_side_line(crossed,  p[i].X, p[i].Y, p[i].Y);
 				angle += angleStep;
 				Sleep(time);
 				i++;
 			}
 			else {
-				if (line_width >= size_max) UpDown = false;
+				if (line_width >= size_max) 
+					UpDown = false;
 
-				if (line_width == 1) UpDown = true;
+				if (line_width == 1)
+					UpDown = true;
 
 				if (UpDown == true)
 				{
 					line_width = line_width + 5;
 					draw_line(a,p[i].X);
+					draw_side_line(p[i].X, p[i].X, (-2)*a, p[i].Y);
+					double crossed = sqrt(pow(a, 2) - pow(p[i].Y, 2));
+					draw_side_line(crossed, p[i].X, p[i].Y, p[i].Y);
 					Sleep(time); //время приостановки прорисовки
 					i++;
 
@@ -388,6 +407,9 @@ namespace task1 {
 				{
 					line_width = line_width - 0.5;
 					draw_line(a,p[i].X);
+					draw_side_line(p[i].X, p[i].X, (-2)*a, p[i].Y);
+					double crossed = sqrt(pow(a, 2) - pow(p[i].Y, 2));
+					draw_side_line(crossed, p[i].X, p[i].Y, p[i].Y);
 					Sleep(time); //время приостановки прорисовки
 					i++;
 				}
@@ -425,16 +447,16 @@ namespace task1 {
 		line_width = param_array[4];
 		if (line_width < 1) { error(line_width); line_width = 1; textBox5->Text = "1"; };//поменять текст боксы 
 		if (line_width > 10) { error(line_width); line_width = 10; textBox5->Text = "10"; };
-		p2 = gcnew array<Point>(64);	// точки для прорисовки (LastT/Step)
+		p2 = gcnew array<Point>(28);	// точки для прорисовки (LastT/Step)
 		int size_max = param_array[6];
 		if (size_max < 0) { error(size_max); size_max = 0; textBox7->Text = "0"; };
 		int time = param_array[1];
 		if (time < 0) { error(time); time = 0; textBox2->Text = "0"; };
-		if (time > 100) { error(time); time = 100; textBox2->Text = "100"; };
+		if (time > 300) { error(time); time = 100; textBox2->Text = "300"; };
 		Paint_Graphic(a, p2);
 		//Paint_Clear();
-		draw_agnesi_trajectory(p2);
-		//draw_calcul_line(p2, size_max, time, a);
+		//draw_agnesi_trajectory(p2);
+		draw_calcul_line(p2, size_max, time, a);
 		//pictureBox2->Refresh();
 	}
 	 void error(int a) {
@@ -445,9 +467,9 @@ private: System::Void pictureBox2_Paint(System::Object^  sender, System::Windows
 }
 private: System::Void MyForm_Load(System::Object^  sender, System::EventArgs^  e) {
 	way_color = Color::Red;
-	line_color = Color::Aqua;
-	textBox1->Text = "30";
-	textBox2->Text = "20";
+	line_color = Color::Black;
+	textBox1->Text = "50";
+	textBox2->Text = "200";
 	textBox3->Text = "200";
 	textBox4->Text = "100";
 	textBox5->Text = "2";
